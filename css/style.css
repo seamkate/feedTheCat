@@ -1,0 +1,161 @@
+@font-face {
+	font-family: 'Conv_Exo2.0-Thin';
+	src: url('fonts/Exo2.0-Thin.eot');
+	src: local('☺'), url('fonts/Exo2.0-Thin.woff') format('woff'), url('fonts/Exo2.0-Thin.ttf') format('truetype'), url('fonts/Exo2.0-Thin.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+
+
+  background:url("/img/Background.png");
+}
+
+a {
+  color: #1698D9;
+}
+
+h1 {
+  font-family: 'Exo2.0-Thin' , sans-serif;
+  font-style:normal;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 1px 1px #000000;
+  margin-top: 36px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+  padding-top: 5px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+/*дизайн карточек с кормом*/
+.items {
+  max-width: 1280px;
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 2px 80px 80px 80px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+  
+  box-sizing: border-box;
+}
+
+.item__box {
+  display: flex;
+  width: 320px;
+  height: 480px;
+  box-sizing: border-box;
+
+
+  /* clip-path:url("/img/Border.svg");
+
+  border */
+  
+  box-sizing: border-box;
+  
+  background: url("/img/Back.svg") no-repeat bottom;
+  
+}
+
+.box__title {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  margin-left: 48px;
+  margin-top: 21px;
+}
+
+.box__desc {
+  padding-top: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+}
+
+
+.weight {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  margin: 384px 16px 16px 224px ;  
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1698D9;
+  color: #FFFFFF;
+
+}
+
+.weight-value {
+  padding-top: 20px;
+  align-items: center;
+  font-size: 42px;
+  line-height: 22px;
+  /* identical to box height, or 52% */
+
+ 
+  text-align: center;
+}
+
+.weight-unit {
+  font-size: 21px;
+  line-height: 22px;
+  /* or 52% */
+
+  text-align: center;
+  padding-top: 8px;
+}
+
+/* } */
+
+.item__link  {
+  display: flex;
+  margin: auto;
+  font-size: 13px;
+  padding-top: 14px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
